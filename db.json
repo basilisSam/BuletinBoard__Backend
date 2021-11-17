@@ -1,16 +1,30 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "Categories": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "title": "First Semester"
+    },
+    {
+      "id": 1,
+      "title": "Second Semester"
+    },
+    {
+      "id": 2,
+      "title": "Third Semester"
+    }
+  ],
+  "Announcements": [
+    {
+      "title": "alex",
+      "text": "test",
+      "categoryId": 0,
+      "id": 1
+    },
+    {
+      "title": "adssad",
+      "text": "asdad",
+      "categoryId": "2",
+      "id": 2
     }
   ]
 }
